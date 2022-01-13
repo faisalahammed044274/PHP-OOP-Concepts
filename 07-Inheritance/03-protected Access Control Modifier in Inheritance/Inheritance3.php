@@ -17,11 +17,21 @@
      }
  }
 
+//  class PartTimeTeacher extends Teacher{
+//      function getUniversityName()
+//      {
+//          return $this->UniversityName;
+//      }
+//  }
+
  $teacher1 =  new Teacher();
  $teacher1->helloTeacher();
  $teacher1->helloUniversity(); 
  // using Child Object to Call the parent method;
- echo $teacher1->getUniversityName();
+ echo $teacher1->getUniversityName() . PHP_EOL;
 
-//  echo $teacher1 ->teacherName . PHP_EOL;
-//  echo $teacher->UniversityName .  PHP_EOL;
+ //GrandChild cannot accesss it's grandparent.
+// $ptt = new PartTimeTeacher();
+// echo $ptt->getUniversityName();
+
+
