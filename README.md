@@ -25,4 +25,4 @@
   <li>CRUD Operations with Post Class with OOP<li>
 <ul>
 
-Learn PHP OOP Concepts: Object Oriented Programming Concepts with Examples and Projects
+<h2> Learn PHP OOP Concepts: Object Oriented Programming Concepts with Examples and Projects <h2>
