@@ -45,6 +45,6 @@ class Course
     }
 
     function printCourseDetails(){
-        echo "Course: $this->courseName" . PHP_EOL . '<br>';
+        echo "Course: $this->courseName" . PHP_EOL;
     }
 }

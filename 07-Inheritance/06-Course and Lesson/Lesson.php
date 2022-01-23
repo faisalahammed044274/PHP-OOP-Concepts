@@ -19,6 +19,6 @@ class Lesson extends Course
     }
 
     function printLessonDetails(){
-        echo "Lesson: $this->lessonName" . PHP_EOL . '<br>';
+        echo "Lesson: $this->lessonName" . PHP_EOL;
     }
 }
