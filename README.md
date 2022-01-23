@@ -1,48 +1,28 @@
 # PHP-OOP-Concepts
-a. 
-b. 
-c. Constructor and Destructor
-d. Chaining method & properties
-e. Access Modifiers
-f. Inheritance
-g. Final keyword
-h. Interface
-i. Abstract class and methods
-j. Static Methods and Properties
-k. Polymorphism
-l. Data Encapsulation
-m. Data Anbstraction
-n. Overriding
-o. Magic methods
-p. Type hinting
-q. Dependency Injection
-r. Working with objects
-s. Traits and code inclusion
-t. Auto loading and dynamic calling
-u. S.O.L.I.D object oriented principles
-v. Database class with OOP
-w. CRUD Operations with Post Class with OOP
+
 <ul>
   <li>OOP Basics<li>
   <li>$this Keyword<li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
-  <li><li>  
+  <li>Constructor and Destructor<li>  
+  <li>Chaining method & properties<li>  
+  <li>Access Modifiers<li>  
+  <li>Inheritance<li>  
+  <li>Final keyword<li>  
+  <li>Interface<li>  
+  <li>Abstract class and methods<li>  
+  <li>Static Methods and Properties<li>  
+  <li>Polymorphism<li>  
+  <li>Data Encapsulation<li>  
+  <li>Data Anbstraction<li>  
+  <li>Overriding<li>  
+  <li>Magic methods<li>  
+  <li>Type hinting<li>  
+  <li>Dependency Injection<li>  
+  <li>Working with objects<li>  
+  <li>Traits and code inclusion<li>  
+  <li>Auto loading and dynamic calling<li>
+  <li>Database class with OOP<li>
+  <li>CRUD Operations with Post Class with OOP<li>
 <ul>
 
-Learn PHP OOP from Scratch: Object Oriented Programming Concepts with Examples and Projects
+Learn PHP OOP Concepts: Object Oriented Programming Concepts with Examples and Projects
