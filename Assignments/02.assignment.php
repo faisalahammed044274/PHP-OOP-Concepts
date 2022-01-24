@@ -39,7 +39,7 @@ class Calculator{
     }
 }
 
-$myres1 = new Calculator;
+$myres1 = new Calculator();
 $myres1->setA(5);
 $myres1->setB(7);
 $myres1->getResults();
