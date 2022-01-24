@@ -3,13 +3,13 @@
 
 class Doctor{
     function hello(){
-        echo "Hello, I'm a Doctor.";
+        echo "Hello, I'm a Doctor." . PHP_EOL;
     }
 }
 
 class Specialist extends Doctor{
     function hello(){
-        echo "Hello, I am an orthopedic surgeon.";
+        echo "Hello, I am an orthopedic surgeon." . PHP_EOL;
         parent::hello();
     }
 }
