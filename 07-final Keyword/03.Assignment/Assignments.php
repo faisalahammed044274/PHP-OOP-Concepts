@@ -5,7 +5,7 @@
 
 final class Bank
 {
-     function balance()
+    final function balance()
     {
         echo "Reserved 100000000000" . PHP_EOL;
     }

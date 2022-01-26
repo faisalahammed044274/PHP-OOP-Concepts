@@ -6,7 +6,7 @@ class driverFinal{
     private $updateInstructions = "Instructions";
 
     final function runDriverUpdate(){
-        echo 'executing the update inistructions' . PHP_EOL;
+        echo 'executing the update instructions' . PHP_EOL;
     }
 }
 
