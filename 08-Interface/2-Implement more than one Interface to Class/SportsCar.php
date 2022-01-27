@@ -1,7 +1,5 @@
 <?php
 
-use SportsCar as GlobalSportsCar;
-
 require_once "Car.php";
 require_once "CarModel.php";
 
