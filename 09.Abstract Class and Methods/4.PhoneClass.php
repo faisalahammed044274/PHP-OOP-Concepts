@@ -7,21 +7,21 @@ Assignments: Create Phone Class as Abstract Class with Methods and iOS Class Imp
 abstract class Phone{
 
     public $callConnected;
-    public $Unreachable = "false";
+    public $unreachable = false;
     abstract function Connected($number);
     abstract function NotReachable();
 }
 
 class iOS extends Phone{
     function Connected($number){
-        $this->callConnected = true;
-        $this->Unreachable;
+        $this->unreachable = true;
+        $this->callConnected = "YEYY, Stablished the call !";
     }
 
     function NotReachable()
     {
-        if ($this->callConnected){
-            echo "Not Reachable";
+        if ($this->unreachable){
+            return $this->callConnected;
         }
     }
 }
