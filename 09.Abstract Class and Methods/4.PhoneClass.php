@@ -3,7 +3,6 @@
 Assignments: Create Phone Class as Abstract Class with Methods and iOS Class Implements it.
 */
 
-use iOS as GlobalIOS;
 
 abstract class Phone{
 
