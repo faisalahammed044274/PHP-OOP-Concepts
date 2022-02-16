@@ -21,7 +21,7 @@ class iOS extends Phone{
     function NotReachable()
     {
         if ($this->callConnected){
-            return $this->callConnected;
+            echo "Not Reachable";
         }
     }
 }
