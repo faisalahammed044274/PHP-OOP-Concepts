@@ -1,12 +1,15 @@
 <?php
 
+
+
 class Calculator{
-    static $result;
+    static public $result;
     static function add($a, $b) : int{
-        $result = $a + $b;
+        $result = $a + $b ;
         return $result;
     }
 }
-Calculator::$result = 10;
-echo Calculator::add(1, 2) . PHP_EOL;
+
+Calculator::$result = 20;
 echo Calculator::$result . PHP_EOL;
+echo Calculator::add(2,78) . PHP_EOL;
