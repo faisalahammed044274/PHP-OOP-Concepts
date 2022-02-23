@@ -1,11 +1,21 @@
 <?php
+/*
+Exercise 1: String Operation Helper Static Class
 
-class StringHelper{
+1) Create StringHelper Class
+2) Define a method countVowel($content) static method.
+3) Count number of vowels in string.
+ */
+class StringHelper
+{
 
-    static function countVowel($content){
-        return substr_count($content, 'a')+substr_count($content, 'e')+substr_count($content, 'i')+substr_count($content, 'o')+substr_count($content, 'u');
+    public static function countVowel($content)
+    {
+        return substr_count($content, 'a') + substr_count($content, 'e')
+         + substr_count($content, 'i') + substr_count($content, 'o')
+          + substr_count($content, 'u');
     }
 
 }
 
-echo StringHelper::countVowel("This is a String to Count Vowels");
+echo StringHelper::countVowel("This is a String uuijdodo to Count Vowels");
