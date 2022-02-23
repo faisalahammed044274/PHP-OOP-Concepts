@@ -13,7 +13,7 @@ class StringHelper
     {
         return substr_count($content, 'a') + substr_count($content, 'e')
          + substr_count($content, 'i') + substr_count($content, 'o')
-          + substr_count($content, 'u');
+         + substr_count($content, 'u');
     }
 
 }
